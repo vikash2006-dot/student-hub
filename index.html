@@ -1,116 +1,146 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>StudentHub | Learn. Build. Grow.</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@700;800&family=Figtree:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-
-  <!-- Navbar -->
-  <header class="header">
-    <div class="container navbar">
-      <a href="#" class="logo">Student<span>Hub</span></a>
-      <nav>
-        <ul class="nav-links">
-          <li><a href="#">Home</a></li>
-          <li><a href="#courses">Courses</a></li>
-          <li><a href="#">Resources</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
-
-  <!-- Hero -->
-  <section class="hero">
-    <div class="container hero-content">
-      <h1>Learn. Build. <span class="highlight">Grow.</span></h1>
-      <p class="hero-text">
-        Short, practical courses that take you from your first line of code
-        to your first real project. Learn at your own pace. No experience needed.
-      </p>
-      <a href="#courses" class="btn hero-btn">Explore Courses</a>
-    </div>
-
-    <div class="container">
-      <img class="hero-image" src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=1600&h=640&fit=crop&q=80" alt="Students working together on their laptops around a table">
-    </div>
-  </section>
-
-  <!-- Courses -->
-  <section class="courses" id="courses">
-    <div class="container">
-      <h2 class="section-title">Popular courses</h2>
-      <p class="section-subtitle">Pick a course and start learning today.</p>
-
-      <div class="course-grid">
-        <article class="course-card">
-          <img src="https://images.unsplash.com/photo-1522542550221-31fd19575a2d?w=800&h=500&fit=crop&q=80" alt="Hand-drawn website wireframe sketches.">
-          <p class="course-meta">Beginner · 4 weeks</p>
-          <h3>HTML &amp; CSS</h3>
-          <p>Build and style your first web pages, and see how structure and design work together.</p>
-          <a href="#" class="btn btn-outline">View Course</a>
-        </article>
-
-        <article class="course-card">
-          <img src="https://images.unsplash.com/photo-1627398242454-45a1465c2479?w=800&h=500&fit=crop&q=80" alt="JavaScript code on a computer screen">
-          <p class="course-meta">Beginner · 6 weeks</p>
-          <h3>JavaScript Basics</h3>
-          <p>Add interactivity to your pages with variables, functions, events and the DOM.</p>
-          <a href="#" class="btn btn-outline">View Course</a>
-        </article>
-
-        <article class="course-card">
-          <img src="https://images.unsplash.com/photo-1556075798-4825dfaaf498?w=800&h=500&fit=crop&q=80" alt="A Git commit history shown as a branching graph">
-          <p class="course-meta">Beginner · 2 weeks</p>
-          <h3>Git &amp; GitHub</h3>
-          <p>Save your work, track changes and collaborate with other developers like a pro.</p>
-          <a href="#" class="btn btn-outline">View Course</a>
-        </article>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>StudentHub | Learn. Build. Grow.</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@700;800&family=Figtree:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <header class="header">
+      <div class="container navbar">
+        <a href="#" class="logo">Student<span>Hub</span></a>
+        <nav>
+          <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#courses">Courses</a></li>
+            <li><a href="#">Resources</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
       </div>
-    </div>
-  </section>
+    </header>
 
-  <!-- Testimonial -->
-  <section class="testimonial">
-    <div class="container">
-      <blockquote>
-        <p>“I had never written a line of code. Six weeks later my own website was live, and I understood every line of it.”</p>
-        <cite>Priya, first-year engineering student</cite>
-      </blockquote>
-    </div>
-  </section>
-
-  <!-- Call to action -->
-  <section class="cta">
-    <div class="container">
-      <div class="cta-box">
-        <h2>Ready to start learning?</h2>
-        <p>
-          Join over 12,000 students who are building real projects with StudentHub.
-          Every course is free, and you can start right now.
+    <!-- Hero -->
+    <section class="hero">
+      <div class="container hero-content">
+        <h1>Learn. Build. <span class="highlight">Grow.</span></h1>
+        <p class="hero-text">
+          Short, practical courses that take you from your first line of code to
+          your first real project. Learn at your own pace. No experience needed.
         </p>
-        <div class="btn btn-light">Start Learning</div>
+        <a href="#courses" class="btn hero-btn">Explore Courses</a>
       </div>
-    </div>
-  </section>
 
-  <!-- Footer -->
-  <footer class="footer" id="contact">
-    <div class="container">
-      <p class="footer-logo">Student<span>Hub</span></p>
-      <p>Questions? Email us at <a href="mailto:hello@studenthub.example">hello@studenthub.example</a></p>
-      <p class="footer-links">
-        <a href="#">Privacy</a> · <a href="#">Terms</a> · <a href="#">Help Center</a>
-      </p>
-      <p class="copyright">© 2026 StudentHub. All rights reserved.</p>
-    </div>
-  </footer>
+      <div class="container">
+        <img
+          class="hero-image"
+          src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=1600&h=640&fit=crop&q=80"
+          alt="Students working together on their laptops around a table"
+        />
+      </div>
+    </section>
 
-</body>
+    <!-- Courses -->
+    <section class="courses" id="courses">
+      <div class="container">
+        <h2 class="section-title">Popular courses</h2>
+        <p class="section-subtitle">Pick a course and start learning today.</p>
+
+        <div class="course-grid">
+          <article class="course-card">
+            <img
+              src="https://images.unsplash.com/photo-1522542550221-31fd19575a2d?w=800&h=500&fit=crop&q=80"
+              alt="Hand-drawn website wireframe sketches."
+            />
+            <p class="course-meta">Beginner · 4 weeks</p>
+            <h3>HTML &amp; CSS</h3>
+            <p>
+              Build and style your first web pages, and see how structure and
+              design work together.
+            </p>
+            <a href="#" class="btn btn-outline">View Course</a>
+          </article>
+
+          <article class="course-card">
+            <img
+              src="https://images.unsplash.com/photo-1627398242454-45a1465c2479?w=800&h=500&fit=crop&q=80"
+              alt="JavaScript code on a computer screen"
+            />
+            <p class="course-meta">Beginner · 6 weeks</p>
+            <h3>JavaScript Basics</h3>
+            <p>
+              Add interactivity to your pages with variables, functions, events
+              and the DOM.
+            </p>
+            <a href="#" class="btn btn-outline">View Course</a>
+          </article>
+
+          <article class="course-card">
+            <img
+              src="https://images.unsplash.com/photo-1556075798-4825dfaaf498?w=800&h=500&fit=crop&q=80"
+              alt="A Git commit history shown as a branching graph"
+            />
+            <p class="course-meta">Beginner · 2 weeks</p>
+            <h3>Git &amp; GitHub</h3>
+            <p>
+              Save your work, track changes and collaborate with other
+              developers like a pro.
+            </p>
+            <a href="#" class="btn btn-outline">View Course</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonial -->
+    <section class="testimonial">
+      <div class="container">
+        <blockquote>
+          <p>
+            “I had never written a line of code. Six weeks later my own website
+            was live, and I understood every line of it.”
+          </p>
+          <cite>Priya, first-year engineering student</cite>
+        </blockquote>
+      </div>
+    </section>
+
+    <!-- Call to action -->
+    <section class="cta">
+      <div class="container">
+        <div class="cta-box">
+          <h2>Ready to start learning?</h2>
+          <p>
+            Join over 12,000 students who are building real projects with
+            StudentHub. Every course is free, and you can start right now.
+          </p>
+          <button class="btn btn-light" type="button">Start Learning</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer" id="contact">
+      <div class="container">
+        <p class="footer-logo">Student<span>Hub</span></p>
+        <p>
+          Questions? Email us at
+          <a href="mailto:hello@studenthub.example">hello@studenthub.example</a>
+        </p>
+        <p class="footer-links">
+          <a href="#">Privacy</a> · <a href="#">Terms</a> ·
+          <a href="#">Help Center</a>
+        </p>
+        <p class="copyright">© 2026 StudentHub. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
 </html>
