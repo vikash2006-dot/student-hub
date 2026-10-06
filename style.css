@@ -47,7 +47,8 @@ a:focus-visible {
   display: inline-block;
   padding: 14px 30px;
   border-radius: 10px;
-
+  border: none;
+  font: inherit;
   color: #ffffff;
   font-weight: 600;
   cursor: pointer;
