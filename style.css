@@ -47,7 +47,8 @@ a:focus-visible {
   display: inline-block;
   padding: 14px 30px;
   border-radius: 10px;
-
+  border: none;
+  font: inherit;
   color: #ffffff;
   font-weight: 600;
   cursor: pointer;
@@ -115,7 +116,7 @@ a:focus-visible {
 .nav-links {
   display: flex;
   flex-wrap: wrap;
-  gap: 4px;
+  gap: 25px;
   list-style: none;
   margin: 0;
   padding: 0;
@@ -166,6 +167,7 @@ a:focus-visible {
 .hero-btn {
   width: 100%;
   font-size: 18px;
+  background-color: #2b44d6;
 }
 
 .hero-image {
@@ -325,4 +327,11 @@ a:focus-visible {
   padding-top: 20px;
   border-top: 1px solid #2a2e48;
   font-size: 14px;
+}
+
+@media screen and (width < 500px) {
+  .course-grid{
+    display: flex;
+    flex-direction: column;
+  }
 }
